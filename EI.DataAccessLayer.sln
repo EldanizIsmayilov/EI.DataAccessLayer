@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.DataAccessLayer", "EI.DataAccessLayer\EI.DataAccessLayer.csproj", "{6B8F654C-A581-4E31-993F-1E207A43B8E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B8F654C-A581-4E31-993F-1E207A43B8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8F654C-A581-4E31-993F-1E207A43B8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8F654C-A581-4E31-993F-1E207A43B8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8F654C-A581-4E31-993F-1E207A43B8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EFC2B97-7483-407F-887E-F3BD28E694BB}
+	EndGlobalSection
+EndGlobal
