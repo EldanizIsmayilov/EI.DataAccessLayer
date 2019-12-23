@@ -56,12 +56,12 @@
     <Compile Include="Abstractions\IEntityConfiguration.cs" />
     <Compile Include="Abstractions\IRepository.cs" />
     <Compile Include="Abstractions\IUnitOfWork.cs" />
-    <Compile Include="Abstractions\Repositories\IPersonRepository.cs" />
-    <Compile Include="Entities\Person.cs" />
-    <Compile Include="Persistence\Configurations\PersonConfig.cs" />
+    <Compile Include="Abstractions\Repositories\ISampleEntityRepository.cs" />
+    <Compile Include="Entities\SampleEntity.cs" />
+    <Compile Include="Persistence\Configurations\SampleEntityConfig.cs" />
     <Compile Include="Persistence\DBContexts\AppDbContext.cs" />
     <Compile Include="Persistence\Repositories\GenericRepository.cs" />
-    <Compile Include="Persistence\Repositories\PersonRepository.cs" />
+    <Compile Include="Persistence\Repositories\SampleEntityRepository.cs" />
     <Compile Include="Persistence\UnitOfWork\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

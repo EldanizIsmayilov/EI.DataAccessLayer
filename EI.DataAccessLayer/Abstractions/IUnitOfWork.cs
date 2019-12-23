@@ -9,7 +9,7 @@ namespace EI.DataAccessLayer.Abstractions
 {
     public interface IUnitOfWork
     {
-        IPersonRepository PersonRepository { get; }
+        ISampleEntityRepository SampleEntityRepository { get; }
 
         void SaveChanges();
     }

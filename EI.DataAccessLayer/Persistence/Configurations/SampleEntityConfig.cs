@@ -10,9 +10,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EI.DataAccessLayer.Persistence.Configurations
 {
-    public class PersonConfig : EntityTypeConfiguration<Person>, IEntityConfiguration
+    public class SampleEntityConfig : EntityTypeConfiguration<SampleEntity>, IEntityConfiguration
     {
-        public PersonConfig()
+        public SampleEntityConfig()
         {
             HasKey(x => x.Id);
             Property(x => x.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
@@ -22,7 +22,7 @@ namespace EI.DataAccessLayer.Persistence.Configurations
             Property(x => x.Surname).HasColumnName("SURNAME");
             Property(x => x.Patronymic).HasColumnName("PATRONYMIC");
 
-            ToTable("PERSONS");
+            ToTable("SAMPLE_ENTITY");
 
         }
     }

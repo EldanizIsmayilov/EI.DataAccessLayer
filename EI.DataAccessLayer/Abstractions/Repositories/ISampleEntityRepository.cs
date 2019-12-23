@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EI.DataAccessLayer.Abstractions.Repositories
 {
-    public interface IPersonRepository:IRepository<Person>
+    public interface ISampleEntityRepository:IRepository<SampleEntity>
     {
     }
 }

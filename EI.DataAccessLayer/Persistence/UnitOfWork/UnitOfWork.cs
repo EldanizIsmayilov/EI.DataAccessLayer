@@ -24,7 +24,7 @@ namespace EI.DataAccessLayer.Persistence.UnitOfWork
          
         }
 
-        public IPersonRepository PersonRepository => GetRepository<IPersonRepository>();
+        public ISampleEntityRepository SampleEntityRepository => GetRepository<ISampleEntityRepository>();
 
         public IRepository<TEntity> Repository<TEntity>() where TEntity : class, IEntity
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EI.DataAccessLayer.Entities
 {
-    public class Person : IEntity
+    public class SampleEntity : IEntity
     {
         public int Id { get; set; }
 

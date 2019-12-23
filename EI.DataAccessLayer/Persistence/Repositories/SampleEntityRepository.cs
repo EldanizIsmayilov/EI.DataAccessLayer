@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace EI.DataAccessLayer.Persistence.Repositories
 {
-    public class PersonRepository : GenericRepository<Person>, IPersonRepository
+    public class SampleEntityRepository : GenericRepository<SampleEntity>, ISampleEntityRepository
     {
-        public PersonRepository(AppDbContext appDbContext) : base(appDbContext)
+        public SampleEntityRepository(AppDbContext appDbContext) : base(appDbContext)
         {
 
         }
