@@ -1,5 +1,5 @@
-﻿using EI.DataAccessLayer.Abstractions;
-using EI.DataAccessLayer.Entities;
+﻿using IEldaniz.DataAccessLayer.Abstractions;
+using IEldaniz.DataAccessLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EI.DataAccessLayer.Persistence.Configurations
+namespace IEldaniz.DataAccessLayer.Persistence.Configurations
 {
     public class SampleEntityConfig : EntityTypeConfiguration<SampleEntity>, IEntityConfiguration
     {

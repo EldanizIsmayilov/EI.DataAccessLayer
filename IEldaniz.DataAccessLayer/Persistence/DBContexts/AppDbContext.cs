@@ -1,4 +1,4 @@
-﻿using EI.DataAccessLayer.Abstractions;
+﻿using IEldaniz.DataAccessLayer.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace EI.DataAccessLayer.Persistence.DBContexts
+namespace IEldaniz.DataAccessLayer.Persistence.DBContexts
 {
     public class AppDbContext : DbContext
     {

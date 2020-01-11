@@ -1,11 +1,11 @@
-﻿using EI.DataAccessLayer.Abstractions;
+﻿using IEldaniz.DataAccessLayer.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EI.DataAccessLayer.Entities
+namespace IEldaniz.DataAccessLayer.Entities
 {
     public class SampleEntity : IEntity
     {

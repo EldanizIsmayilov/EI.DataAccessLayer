@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EI.DataAccessLayer.Abstractions
+namespace IEldaniz.DataAccessLayer.Abstractions
 {
     public interface IRepository<TEntity> where TEntity : class, IEntity
     {

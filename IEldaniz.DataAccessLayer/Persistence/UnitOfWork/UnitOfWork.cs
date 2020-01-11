@@ -1,7 +1,7 @@
-﻿using EI.DataAccessLayer.Abstractions;
-using EI.DataAccessLayer.Abstractions.Repositories;
-using EI.DataAccessLayer.Persistence.DBContexts;
-using EI.DataAccessLayer.Persistence.Repositories;
+﻿using IEldaniz.DataAccessLayer.Abstractions;
+using IEldaniz.DataAccessLayer.Abstractions.Repositories;
+using IEldaniz.DataAccessLayer.Persistence.DBContexts;
+using IEldaniz.DataAccessLayer.Persistence.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EI.DataAccessLayer.Persistence.UnitOfWork
+namespace IEldaniz.DataAccessLayer.Persistence.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {

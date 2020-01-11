@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EI.DataAccessLayer.Abstractions
+namespace IEldaniz.DataAccessLayer.Abstractions
 {
     public interface IEntity
     {

@@ -1,5 +1,5 @@
-﻿using EI.DataAccessLayer.Abstractions;
-using EI.DataAccessLayer.Persistence.DBContexts;
+﻿using IEldaniz.DataAccessLayer.Abstractions;
+using IEldaniz.DataAccessLayer.Persistence.DBContexts;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EI.DataAccessLayer.Persistence.Repositories
+namespace IEldaniz.DataAccessLayer.Persistence.Repositories
 {
     public class GenericRepository<TEntity> : IRepository<TEntity> where TEntity : class, IEntity
     {
